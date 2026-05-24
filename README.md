@@ -1,1 +1,1 @@
-# javascript-variables-practice
+# javascript learning
