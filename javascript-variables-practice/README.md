@@ -4,6 +4,12 @@ A beginner-friendly JavaScript project covering the basics of variables — `var
 
 ---
 
+## 🖼️ Preview
+
+![JavaScript Variables Practice](https://raw.githubusercontent.com/asmashahzadi764-alt/javascript-learning-/main/javascript-variables-practice/Preview.png)
+
+---
+
 ## 📁 Project Structure
 
 ```
@@ -53,13 +59,11 @@ console.log(university); // Output: Women University Multan
 ### 4. Scope Practice
 ```js
 let city = "Multan";
-
 function showcity() {
     let area = "Katchery";
     console.log(city);   // ✅ Accessible (global)
     console.log(area);   // ✅ Accessible (local)
 }
-
 showcity();
 ```
 - `city` is a **global variable** — accessible anywhere
