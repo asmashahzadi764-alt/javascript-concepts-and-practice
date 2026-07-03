@@ -137,7 +137,4 @@ Visit the live project:
 
 **Asma Shahzadi**
 
-Student — Women University Multan
-
-JavaScript Practice Project
 
