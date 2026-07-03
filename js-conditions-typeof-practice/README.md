@@ -136,5 +136,8 @@ Visit the live project:
 ## 👩‍💻 Author
 
 **Asma Shahzadi**
+
 Student — Women University Multan
+
 JavaScript Practice Project
+
