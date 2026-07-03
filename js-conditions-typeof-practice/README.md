@@ -7,7 +7,7 @@ A beginner JavaScript project demonstrating how to identify data types using `ty
 ## 🌐 Live Demo
 
 **View the project online:**
-**https://asmashahzadi764-alt.github.io/javascript-learning-/js-conditions-typeof-practice/**
+**https://asmashahzadi764-alt.github.io/javascript-concepts-and-practice/js-conditions-typeof-practice/**
 
 > **Note:** This project is part of my **JavaScript Learning** repository and is hosted using GitHub Pages.
 
