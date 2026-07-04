@@ -18,7 +18,7 @@
 
 <p>
 
-<img src="https://img.shields.io/badge/Projects-13+-blue?style=flat-square"/>
+<img src="https://img.shields.io/badge/Projects-14+-blue?style=flat-square"/>
 <img src="https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square"/>
 <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen?style=flat-square"/>
@@ -99,6 +99,7 @@ This repository is actively maintained and will continue to grow with more JavaS
 * ✅ `appendChild()`
 * ✅ `innerHTML`
 * ✅ `outerHTML`
+* ✅ `DocumentFragment`
 
 ---
 
@@ -330,6 +331,32 @@ A practice project demonstrating how to inspect and replace complete HTML elemen
 
 ---
 
+## 📌 DocumentFragment Practice
+
+A practice project demonstrating how to use `DocumentFragment` to batch DOM updates efficiently, reducing reflows when adding multiple elements at once.
+
+### 📚 Concepts Covered
+
+* `DocumentFragment`
+* `createElement()`
+* `appendChild()`
+* Batch DOM Updates
+* Performance Optimization
+
+<p>
+
+<a href="https://github.com/asmashahzadi764-alt/javascript-concepts-and-practice/tree/main/js-document-fragment-practice">
+<img src="https://img.shields.io/badge/📂_Repository-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://asmashahzadi764-alt.github.io/javascript-concepts-and-practice/js-document-fragment-practice/">
+<img src="https://img.shields.io/badge/🚀_Live_Demo-2EA44F?style=for-the-badge&logo=githubpages&logoColor=white"/>
+</a>
+
+</p>
+
+---
+
 ## 📌 HTML Forms Input Types Practice
 
 Practice project exploring different HTML input types commonly used in web forms.
@@ -470,7 +497,7 @@ Practice project demonstrating data type checking and conditional statements in 
 
 # 📊 Repository Progress
 
-* ✅ **13 Practice Projects Completed**
+* ✅ **14 Practice Projects Completed**
 * 📚 **JavaScript Fundamentals Covered**
 * 🚀 **Repository is actively maintained and updated**
 
@@ -493,4 +520,3 @@ Stay tuned for future updates! 🚀
 ⭐ If you find this repository helpful, consider giving it a **Star** on GitHub.
 
 </div>
-
