@@ -129,6 +129,26 @@ This repository is actively maintained and will continue to grow with more JavaS
 
 # 📂 Practice Projects
 
+## 📑 Table of Contents
+
+1. [JavaScript Variables Practice](#js-variables)
+2. [Functions Practice](#js-functions)
+3. [JavaScript Functions Calculator](#js-calculator)
+4. [DOM Text & Color Changer](#dom-text-color)
+5. [DOM Show & Hide](#dom-show-hide)
+6. [DOM Create Element](#dom-create-element)
+7. [DOM innerHTML Practice](#dom-innerhtml)
+8. [DOM outerHTML Practice](#dom-outerhtml)
+9. [DocumentFragment Practice](#document-fragment)
+10. [HTML Forms Input Types Practice](#html-input-types)
+11. [HTML Form Submission Practice](#html-form-submission)
+12. [HTML Radio, Checkbox & File Practice](#html-radio-checkbox-file)
+13. [HTML Form Validation Practice](#html-form-validation)
+14. [JavaScript Conditions & Typeof Practice](#js-conditions)
+
+---
+
+<a id="js-variables"></a>
 ## 📌 JavaScript Variables Practice
 
 Practice project covering JavaScript variable declarations, scope, and hoisting.
@@ -156,6 +176,7 @@ Practice project covering JavaScript variable declarations, scope, and hoisting.
 
 ---
 
+<a id="js-functions"></a>
 ## 📌 Functions Practice
 
 Practice project demonstrating different types of JavaScript functions and function syntax.
@@ -184,6 +205,7 @@ Practice project demonstrating different types of JavaScript functions and funct
 
 ---
 
+<a id="js-calculator"></a>
 ## 📌 JavaScript Functions Calculator
 
 A mini calculator project built using JavaScript functions to perform basic arithmetic operations.
@@ -209,6 +231,7 @@ A mini calculator project built using JavaScript functions to perform basic arit
 
 ---
 
+<a id="dom-text-color"></a>
 ## 📌 DOM Text & Color Changer
 
 A simple DOM project demonstrating how JavaScript can update text content and change CSS styles dynamically.
@@ -234,6 +257,7 @@ A simple DOM project demonstrating how JavaScript can update text content and ch
 
 ---
 
+<a id="dom-show-hide"></a>
 ## 📌 DOM Show & Hide
 
 Practice project demonstrating how to hide and display HTML elements using JavaScript.
@@ -259,6 +283,7 @@ Practice project demonstrating how to hide and display HTML elements using JavaS
 
 ---
 
+<a id="dom-create-element"></a>
 ## 📌 DOM Create Element
 
 Practice project demonstrating dynamic creation of HTML elements using JavaScript.
@@ -282,6 +307,7 @@ Practice project demonstrating dynamic creation of HTML elements using JavaScrip
 </p>
 ---
 
+<a id="dom-innerhtml"></a>
 ## 📌 DOM innerHTML Practice
 
 A practice project demonstrating how to read and update HTML content dynamically using the `innerHTML` property.
@@ -307,6 +333,7 @@ A practice project demonstrating how to read and update HTML content dynamically
 
 ---
 
+<a id="dom-outerhtml"></a>
 ## 📌 DOM outerHTML Practice
 
 A practice project demonstrating how to inspect and replace complete HTML elements using the `outerHTML` property.
@@ -331,6 +358,7 @@ A practice project demonstrating how to inspect and replace complete HTML elemen
 
 ---
 
+<a id="document-fragment"></a>
 ## 📌 DocumentFragment Practice
 
 A practice project demonstrating how to use `DocumentFragment` to batch DOM updates efficiently, reducing reflows when adding multiple elements at once.
@@ -357,6 +385,7 @@ A practice project demonstrating how to use `DocumentFragment` to batch DOM upda
 
 ---
 
+<a id="html-input-types"></a>
 ## 📌 HTML Forms Input Types Practice
 
 Practice project exploring different HTML input types commonly used in web forms.
@@ -387,6 +416,7 @@ Practice project exploring different HTML input types commonly used in web forms
 
 ---
 
+<a id="html-form-submission"></a>
 ## 📌 HTML Form Submission Practice
 
 Practice project demonstrating how HTML forms send data using different submission methods.
@@ -415,6 +445,7 @@ Practice project demonstrating how HTML forms send data using different submissi
 
 ---
 
+<a id="html-radio-checkbox-file"></a>
 ## 📌 HTML Radio, Checkbox & File Practice
 
 Practice project demonstrating commonly used form controls for user input.
@@ -442,6 +473,7 @@ Practice project demonstrating commonly used form controls for user input.
 
 ---
 
+<a id="html-form-validation"></a>
 ## 📌 HTML Form Validation Practice
 
 Practice project demonstrating client-side validation techniques for HTML forms.
@@ -470,6 +502,7 @@ Practice project demonstrating client-side validation techniques for HTML forms.
 
 ---
 
+<a id="js-conditions"></a>
 ## 📌 JavaScript Conditions & Typeof Practice
 
 Practice project demonstrating data type checking and conditional statements in JavaScript.
