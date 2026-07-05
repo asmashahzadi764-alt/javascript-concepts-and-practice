@@ -18,7 +18,7 @@
 
 <p>
 
-<img src="https://img.shields.io/badge/Projects-14+-blue?style=flat-square"/>
+<img src="https://img.shields.io/badge/Projects-15+-blue?style=flat-square"/>
 <img src="https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square"/>
 <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen?style=flat-square"/>
@@ -85,10 +85,7 @@ This repository is actively maintained and will continue to grow with more JavaS
 * ✅ Anonymous Functions
 * ✅ Arrow Functions
 * ✅ Default Parameters
-
----
-
-## 🔵 DOM Manipulation
+* ✅ `for` Loop
 
 * ✅ `querySelector()`
 * ✅ Event Listeners
@@ -145,6 +142,7 @@ This repository is actively maintained and will continue to grow with more JavaS
 12. [HTML Radio, Checkbox & File Practice](#html-radio-checkbox-file)
 13. [HTML Form Validation Practice](#html-form-validation)
 14. [JavaScript Conditions & Typeof Practice](#js-conditions)
+15. [JavaScript For Loop Practice](#js-for-loop)
 
 ---
 
@@ -528,9 +526,35 @@ Practice project demonstrating data type checking and conditional statements in 
 
 ---
 
+<a id="js-for-loop"></a>
+## 📌 JavaScript For Loop Practice
+
+A practice project demonstrating how to use a `for` loop to iterate over an array and dynamically render a list to the DOM.
+
+### 📚 Concepts Covered
+
+* `for` Loop
+* `createElement()`
+* `appendChild()`
+* Dynamic List Rendering
+
+<p>
+
+<a href="https://github.com/asmashahzadi764-alt/javascript-concepts-and-practice/tree/main/js-for-loop-practice">
+<img src="https://img.shields.io/badge/📂_Repository-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://asmashahzadi764-alt.github.io/javascript-concepts-and-practice/js-for-loop-practice/">
+<img src="https://img.shields.io/badge/🚀_Live_Demo-2EA44F?style=for-the-badge&logo=githubpages&logoColor=white"/>
+</a>
+
+</p>
+
+---
+
 # 📊 Repository Progress
 
-* ✅ **14 Practice Projects Completed**
+* ✅ **15 Practice Projects Completed**
 * 📚 **JavaScript Fundamentals Covered**
 * 🚀 **Repository is actively maintained and updated**
 
