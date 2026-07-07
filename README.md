@@ -18,7 +18,7 @@
 
 <p>
 
-<img src="https://img.shields.io/badge/Projects-16+-blue?style=flat-square"/>
+<img src="https://img.shields.io/badge/Projects-17+-blue?style=flat-square"/>
 <img src="https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square"/>
 <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen?style=flat-square"/>
@@ -87,6 +87,7 @@ This repository is actively maintained and will continue to grow with more JavaS
 * ✅ Default Parameters
 * ✅ `for` Loop
 * ✅ `while` Loop
+* ✅ `do...while` Loop
 
 * ✅ `querySelector()`
 * ✅ Event Listeners
@@ -145,6 +146,7 @@ This repository is actively maintained and will continue to grow with more JavaS
 14. [JavaScript Conditions & Typeof Practice](#js-conditions)
 15. [JavaScript For Loop Practice](#js-for-loop)
 16. [JavaScript While Loop Practice](#js-while-loop)
+17. [JavaScript Do While Loop Practice](#js-do-while-loop)
 
 ---
 
@@ -580,9 +582,35 @@ A practice project demonstrating how to use a `while` loop to dynamically render
 
 ---
 
+<a id="js-do-while-loop"></a>
+## 📌 JavaScript Do While Loop Practice
+
+A practice project demonstrating how to use a `do...while` loop, which runs its block at least once before checking the condition, to dynamically render a list of numbers to the DOM.
+
+### 📚 Concepts Covered
+
+* `do...while` Loop
+* `createElement()`
+* `appendChild()`
+* Clearing & Re-rendering DOM Content
+
+<p>
+
+<a href="https://github.com/asmashahzadi764-alt/javascript-concepts-and-practice/tree/main/js-do-while-loop-practice">
+<img src="https://img.shields.io/badge/📂_Repository-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://asmashahzadi764-alt.github.io/javascript-concepts-and-practice/js-do-while-loop-practice/">
+<img src="https://img.shields.io/badge/🚀_Live_Demo-2EA44F?style=for-the-badge&logo=githubpages&logoColor=white"/>
+</a>
+
+</p>
+
+---
+
 # 📊 Repository Progress
 
-* ✅ **16 Practice Projects Completed**
+* ✅ **17 Practice Projects Completed**
 * 📚 **JavaScript Fundamentals Covered**
 * 🚀 **Repository is actively maintained and updated**
 
