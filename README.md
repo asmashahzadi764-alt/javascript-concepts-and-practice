@@ -18,7 +18,7 @@
 
 <p>
 
-<img src="https://img.shields.io/badge/Projects-18+-blue?style=flat-square"/>
+<img src="https://img.shields.io/badge/Projects-19+-blue?style=flat-square"/>
 <img src="https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square"/>
 <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen?style=flat-square"/>
@@ -149,6 +149,7 @@ This repository is actively maintained and will continue to grow with more JavaS
 16. [JavaScript While Loop Practice](#js-while-loop)
 17. [JavaScript Do While Loop Practice](#js-do-while-loop)
 18. [JavaScript Switch Practice](#js-switch)
+19. [JavaScript Switch Day Finder](#js-switch-day-finder)
 
 ---
 
@@ -636,9 +637,35 @@ A practice project demonstrating how to use a `switch` statement to handle multi
 
 ---
 
+<a id="js-switch-day-finder"></a>
+## 📌 JavaScript Switch Day Finder
+
+A practice project demonstrating how to combine a `switch` statement with user input to find and display the day of the week matching a number entered by the user.
+
+### 📚 Concepts Covered
+
+* `switch` Statement
+* User Input Handling
+* `Number()` Conversion
+* `default` Case
+
+<p>
+
+<a href="https://github.com/asmashahzadi764-alt/javascript-concepts-and-practice/tree/main/js-switch-day-finder">
+<img src="https://img.shields.io/badge/📂_Repository-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://asmashahzadi764-alt.github.io/javascript-concepts-and-practice/js-switch-day-finder/">
+<img src="https://img.shields.io/badge/🚀_Live_Demo-2EA44F?style=for-the-badge&logo=githubpages&logoColor=white"/>
+</a>
+
+</p>
+
+---
+
 # 📊 Repository Progress
 
-* ✅ **18 Practice Projects Completed**
+* ✅ **19 Practice Projects Completed**
 * 📚 **JavaScript Fundamentals Covered**
 * 🚀 **Repository is actively maintained and updated**
 
