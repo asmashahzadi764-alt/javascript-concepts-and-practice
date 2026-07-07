@@ -18,7 +18,7 @@
 
 <p>
 
-<img src="https://img.shields.io/badge/Projects-19+-blue?style=flat-square"/>
+<img src="https://img.shields.io/badge/Projects-20+-blue?style=flat-square"/>
 <img src="https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square"/>
 <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen?style=flat-square"/>
@@ -124,6 +124,7 @@ This repository is actively maintained and will continue to grow with more JavaS
 * ✅ Logical AND (`&&`)
 * ✅ Logical OR (`||`)
 * ✅ `switch` Statement
+* ✅ Ternary Operator (`? :`)
 
 ---
 
@@ -150,6 +151,7 @@ This repository is actively maintained and will continue to grow with more JavaS
 17. [JavaScript Do While Loop Practice](#js-do-while-loop)
 18. [JavaScript Switch Practice](#js-switch)
 19. [JavaScript Switch Day Finder](#js-switch-day-finder)
+20. [JavaScript Ternary Operator Practice](#js-ternary-operator)
 
 ---
 
@@ -663,9 +665,35 @@ A practice project demonstrating how to combine a `switch` statement with user i
 
 ---
 
+<a id="js-ternary-operator"></a>
+## 📌 JavaScript Ternary Operator Practice
+
+A practice project demonstrating how to use the ternary operator (`? :`) as a shorthand for `if...else` to check eligibility based on user input.
+
+### 📚 Concepts Covered
+
+* Ternary Operator (`? :`)
+* User Input Handling
+* `Number()` Conversion
+* `textContent`
+
+<p>
+
+<a href="https://github.com/asmashahzadi764-alt/javascript-concepts-and-practice/tree/main/js-ternary-operator-practice">
+<img src="https://img.shields.io/badge/📂_Repository-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://asmashahzadi764-alt.github.io/javascript-concepts-and-practice/js-ternary-operator-practice/">
+<img src="https://img.shields.io/badge/🚀_Live_Demo-2EA44F?style=for-the-badge&logo=githubpages&logoColor=white"/>
+</a>
+
+</p>
+
+---
+
 # 📊 Repository Progress
 
-* ✅ **19 Practice Projects Completed**
+* ✅ **20 Practice Projects Completed**
 * 📚 **JavaScript Fundamentals Covered**
 * 🚀 **Repository is actively maintained and updated**
 
