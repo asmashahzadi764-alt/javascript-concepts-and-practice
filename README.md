@@ -18,7 +18,7 @@
 
 <p>
 
-<img src="https://img.shields.io/badge/Projects-17+-blue?style=flat-square"/>
+<img src="https://img.shields.io/badge/Projects-18+-blue?style=flat-square"/>
 <img src="https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square"/>
 <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen?style=flat-square"/>
@@ -123,6 +123,7 @@ This repository is actively maintained and will continue to grow with more JavaS
 * ✅ `if...else`
 * ✅ Logical AND (`&&`)
 * ✅ Logical OR (`||`)
+* ✅ `switch` Statement
 
 ---
 
@@ -147,6 +148,7 @@ This repository is actively maintained and will continue to grow with more JavaS
 15. [JavaScript For Loop Practice](#js-for-loop)
 16. [JavaScript While Loop Practice](#js-while-loop)
 17. [JavaScript Do While Loop Practice](#js-do-while-loop)
+18. [JavaScript Switch Practice](#js-switch)
 
 ---
 
@@ -608,9 +610,35 @@ A practice project demonstrating how to use a `do...while` loop, which runs its 
 
 ---
 
+<a id="js-switch"></a>
+## 📌 JavaScript Switch Practice
+
+A practice project demonstrating how to use a `switch` statement to handle multiple possible values of a variable and display the matching result.
+
+### 📚 Concepts Covered
+
+* `switch` Statement
+* `case` & `break`
+* `default` Case
+* `textContent`
+
+<p>
+
+<a href="https://github.com/asmashahzadi764-alt/javascript-concepts-and-practice/tree/main/js-switch-practice">
+<img src="https://img.shields.io/badge/📂_Repository-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://asmashahzadi764-alt.github.io/javascript-concepts-and-practice/js-switch-practice/">
+<img src="https://img.shields.io/badge/🚀_Live_Demo-2EA44F?style=for-the-badge&logo=githubpages&logoColor=white"/>
+</a>
+
+</p>
+
+---
+
 # 📊 Repository Progress
 
-* ✅ **17 Practice Projects Completed**
+* ✅ **18 Practice Projects Completed**
 * 📚 **JavaScript Fundamentals Covered**
 * 🚀 **Repository is actively maintained and updated**
 
