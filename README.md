@@ -18,7 +18,7 @@
 
 <p>
 
-<img src="https://img.shields.io/badge/Projects-20+-blue?style=flat-square"/>
+<img src="https://img.shields.io/badge/Projects-23+-blue?style=flat-square"/>
 <img src="https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square"/>
 <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen?style=flat-square"/>
@@ -88,6 +88,10 @@ This repository is actively maintained and will continue to grow with more JavaS
 * ✅ `for` Loop
 * ✅ `while` Loop
 * ✅ `do...while` Loop
+* ✅ Type Conversion (`parseInt()`)
+* ✅ Rest Operator (`...`)
+* ✅ Spread Operator (`...`)
+* ✅ Higher Order Functions (`forEach()`, `map()`, `filter()`, `find()`, `reduce()`)
 
 * ✅ `querySelector()`
 * ✅ Event Listeners
@@ -152,6 +156,9 @@ This repository is actively maintained and will continue to grow with more JavaS
 18. [JavaScript Switch Practice](#js-switch)
 19. [JavaScript Switch Day Finder](#js-switch-day-finder)
 20. [JavaScript Ternary Operator Practice](#js-ternary-operator)
+21. [JavaScript Type Conversion Practice](#js-type-conversion)
+22. [JavaScript Rest & Spread Practice](#js-rest-spread)
+23. [JavaScript Higher Order Functions Practice](#js-higher-order-functions)
 
 ---
 
@@ -691,9 +698,89 @@ A practice project demonstrating how to use the ternary operator (`? :`) as a sh
 
 ---
 
+<a id="js-type-conversion"></a>
+## 📌 JavaScript Type Conversion Practice
+
+A practice project demonstrating the difference between string concatenation and numeric addition, and how `parseInt()` converts string input into numbers.
+
+### 📚 Concepts Covered
+
+* Type Conversion
+* `parseInt()`
+* String Concatenation vs Numeric Addition
+* User Input Handling
+
+<p>
+
+<a href="https://github.com/asmashahzadi764-alt/javascript-concepts-and-practice/tree/main/js-type-conversion-practice">
+<img src="https://img.shields.io/badge/📂_Repository-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://asmashahzadi764-alt.github.io/javascript-concepts-and-practice/js-type-conversion-practice/">
+<img src="https://img.shields.io/badge/🚀_Live_Demo-2EA44F?style=for-the-badge&logo=githubpages&logoColor=white"/>
+</a>
+
+</p>
+
+---
+
+<a id="js-rest-spread"></a>
+## 📌 JavaScript Rest & Spread Practice
+
+A practice project demonstrating the rest operator for collecting function arguments into an array, and the spread operator for expanding an array into individual values.
+
+### 📚 Concepts Covered
+
+* Rest Operator (`...`)
+* Spread Operator (`...`)
+* Function Arguments
+* Template Literals
+
+<p>
+
+<a href="https://github.com/asmashahzadi764-alt/javascript-concepts-and-practice/tree/main/js-rest-spread-practice">
+<img src="https://img.shields.io/badge/📂_Repository-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://asmashahzadi764-alt.github.io/javascript-concepts-and-practice/js-rest-spread-practice/">
+<img src="https://img.shields.io/badge/🚀_Live_Demo-2EA44F?style=for-the-badge&logo=githubpages&logoColor=white"/>
+</a>
+
+</p>
+
+---
+
+<a id="js-higher-order-functions"></a>
+## 📌 JavaScript Higher Order Functions Practice
+
+A practice project demonstrating five key higher-order array methods — `forEach()`, `map()`, `filter()`, `find()`, and `reduce()` — each triggered independently to show how they transform, filter, search, or accumulate array data.
+
+### 📚 Concepts Covered
+
+* Higher Order Functions
+* `forEach()`
+* `map()`
+* `filter()`
+* `find()`
+* `reduce()`
+
+<p>
+
+<a href="https://github.com/asmashahzadi764-alt/javascript-concepts-and-practice/tree/main/js-higher-order-functions-practice">
+<img src="https://img.shields.io/badge/📂_Repository-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://asmashahzadi764-alt.github.io/javascript-concepts-and-practice/js-higher-order-functions-practice/">
+<img src="https://img.shields.io/badge/🚀_Live_Demo-2EA44F?style=for-the-badge&logo=githubpages&logoColor=white"/>
+</a>
+
+</p>
+
+---
+
 # 📊 Repository Progress
 
-* ✅ **20 Practice Projects Completed**
+* ✅ **23 Practice Projects Completed**
 * 📚 **JavaScript Fundamentals Covered**
 * 🚀 **Repository is actively maintained and updated**
 
