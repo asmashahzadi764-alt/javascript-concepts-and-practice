@@ -136,29 +136,42 @@ This repository is actively maintained and will continue to grow with more JavaS
 
 ## 📑 Table of Contents
 
-1. [JavaScript Variables Practice](#js-variables)
-2. [Functions Practice](#js-functions)
-3. [JavaScript Functions Calculator](#js-calculator)
-4. [DOM Text & Color Changer](#dom-text-color)
-5. [DOM Show & Hide](#dom-show-hide)
-6. [DOM Create Element](#dom-create-element)
-7. [DOM innerHTML Practice](#dom-innerhtml)
-8. [DOM outerHTML Practice](#dom-outerhtml)
-9. [DocumentFragment Practice](#document-fragment)
-10. [HTML Forms Input Types Practice](#html-input-types)
-11. [HTML Form Submission Practice](#html-form-submission)
-12. [HTML Radio, Checkbox & File Practice](#html-radio-checkbox-file)
-13. [HTML Form Validation Practice](#html-form-validation)
-14. [JavaScript Conditions & Typeof Practice](#js-conditions)
-15. [JavaScript For Loop Practice](#js-for-loop)
-16. [JavaScript While Loop Practice](#js-while-loop)
-17. [JavaScript Do While Loop Practice](#js-do-while-loop)
-18. [JavaScript Switch Practice](#js-switch)
-19. [JavaScript Switch Day Finder](#js-switch-day-finder)
-20. [JavaScript Ternary Operator Practice](#js-ternary-operator)
-21. [JavaScript Type Conversion Practice](#js-type-conversion)
-22. [JavaScript Rest & Spread Practice](#js-rest-spread)
-23. [JavaScript Higher Order Functions Practice](#js-higher-order-functions)
+**🟢 JavaScript Fundamentals**
+- [JavaScript Variables Practice](#js-variables)
+- [Functions Practice](#js-functions)
+- [JavaScript Type Conversion Practice](#js-type-conversion)
+- [JavaScript Rest & Spread Practice](#js-rest-spread)
+
+**🔵 DOM Manipulation**
+- [DOM Text & Color Changer](#dom-text-color)
+- [DOM Show & Hide](#dom-show-hide)
+- [DOM Create Element](#dom-create-element)
+- [DOM innerHTML Practice](#dom-innerhtml)
+- [DOM outerHTML Practice](#dom-outerhtml)
+- [DocumentFragment Practice](#document-fragment)
+
+**🟠 Loops**
+- [JavaScript For Loop Practice](#js-for-loop)
+- [JavaScript While Loop Practice](#js-while-loop)
+- [JavaScript Do While Loop Practice](#js-do-while-loop)
+
+**🟣 Conditionals & Logic**
+- [JavaScript Conditions & Typeof Practice](#js-conditions)
+- [JavaScript Switch Practice](#js-switch)
+- [JavaScript Switch Day Finder](#js-switch-day-finder)
+- [JavaScript Ternary Operator Practice](#js-ternary-operator)
+
+**🔴 Array Methods**
+- [JavaScript Higher Order Functions Practice](#js-higher-order-functions)
+
+**🟡 HTML Forms**
+- [HTML Forms Input Types Practice](#html-input-types)
+- [HTML Form Submission Practice](#html-form-submission)
+- [HTML Radio, Checkbox & File Practice](#html-radio-checkbox-file)
+- [HTML Form Validation Practice](#html-form-validation)
+
+**🧮 Mini Projects**
+- [JavaScript Functions Calculator](#js-calculator)
 
 ---
 
