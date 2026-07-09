@@ -18,9 +18,9 @@
 
 <p>
 
-<img src="https://img.shields.io/badge/Projects-23+-blue?style=flat-square"/>
+<img src="https://img.shields.io/badge/Projects-25-blue?style=flat-square"/>
 <img src="https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/Status-Active-success?style=flat-square"/>
+<img src="https://img.shields.io/badge/Status-Completed-success?style=flat-square"/>
 <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen?style=flat-square"/>
 
 </p>
@@ -43,7 +43,7 @@ Every folder contains:
 * 📖 Well-documented README
 * 🚀 Live Demo using GitHub Pages
 
-This repository is actively maintained and will continue to grow with more JavaScript practice projects.
+This repository is now **complete** — spanning 25 practice projects across JavaScript Fundamentals, DOM Manipulation, Loops, Conditionals & Logic, Array Methods, Closures, Asynchronous JavaScript, and HTML Forms.
 
 ---
 
@@ -92,6 +92,7 @@ This repository is actively maintained and will continue to grow with more JavaS
 * ✅ Rest Operator (`...`)
 * ✅ Spread Operator (`...`)
 * ✅ Higher Order Functions (`forEach()`, `map()`, `filter()`, `find()`, `reduce()`)
+* ✅ Closures
 
 * ✅ `querySelector()`
 * ✅ Event Listeners
@@ -132,6 +133,16 @@ This repository is actively maintained and will continue to grow with more JavaS
 
 ---
 
+## ⏳ Asynchronous JavaScript
+
+* ✅ Event Loop
+* ✅ Callback Functions
+* ✅ Promises
+* ✅ Async/Await
+* ✅ Fetch API
+
+---
+
 # 📂 Practice Projects
 
 ## 📑 Table of Contents
@@ -163,6 +174,12 @@ This repository is actively maintained and will continue to grow with more JavaS
 
 **🔴 Array Methods**
 - [JavaScript Higher Order Functions Practice](#js-higher-order-functions)
+
+**🟤 Closures**
+- [JavaScript Closures Practice](#js-closures)
+
+**⏳ Asynchronous JavaScript**
+- [JavaScript Asynchronous Programming Practice](#js-async)
 
 **🟡 HTML Forms**
 - [HTML Forms Input Types Practice](#html-input-types)
@@ -791,19 +808,73 @@ A practice project demonstrating five key higher-order array methods — `forEac
 
 ---
 
-# 📊 Repository Progress
+<a id="js-closures"></a>
+## 📌 JavaScript Closures Practice
 
-* ✅ **23 Practice Projects Completed**
-* 📚 **JavaScript Fundamentals Covered**
-* 🚀 **Repository is actively maintained and updated**
+A practice project demonstrating closures by building a counter function that "remembers" its state between clicks, even after the outer function has finished running.
+
+### 📚 Concepts Covered
+
+* Closures
+* Function Scope
+* Returning Functions
+* Event Listener Callbacks
+
+<p>
+
+<a href="https://github.com/asmashahzadi764-alt/javascript-concepts-and-practice/tree/main/js-closures-practice">
+<img src="https://img.shields.io/badge/📂_Repository-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://asmashahzadi764-alt.github.io/javascript-concepts-and-practice/js-closures-practice/">
+<img src="https://img.shields.io/badge/🚀_Live_Demo-2EA44F?style=for-the-badge&logo=githubpages&logoColor=white"/>
+</a>
+
+</p>
 
 ---
 
-# ⭐ Stay Tuned
+<a id="js-async"></a>
+## 📌 JavaScript Asynchronous Programming Practice
 
-More JavaScript concepts, practice projects, and mini applications will be added to this repository regularly.
+A practice project covering the core building blocks of async JavaScript — the event loop, callbacks, promises, async/await, and a real API call with the Fetch API.
 
-Stay tuned for future updates! 🚀
+### 📚 Concepts Covered
+
+* Event Loop
+* Callback Functions
+* Promises
+* Async/Await
+* Fetch API
+* `try...catch` Error Handling
+
+<p>
+
+<a href="https://github.com/asmashahzadi764-alt/javascript-concepts-and-practice/tree/main/js-asynchronous-javascript-practice">
+<img src="https://img.shields.io/badge/📂_Repository-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://asmashahzadi764-alt.github.io/javascript-concepts-and-practice/js-asynchronous-javascript-practice/">
+<img src="https://img.shields.io/badge/🚀_Live_Demo-2EA44F?style=for-the-badge&logo=githubpages&logoColor=white"/>
+</a>
+
+</p>
+
+---
+
+# 📊 Repository Progress
+
+* ✅ **25 Practice Projects Completed**
+* 📚 **JavaScript Fundamentals Covered**
+* 🏁 **Repository complete — no further practice projects planned for this collection**
+
+---
+
+# 🏁 Final Note
+
+This repository marks the completion of my JavaScript fundamentals journey — from variables and loops to closures, array methods, and asynchronous programming. Each project here was built to understand a specific concept deeply before combining them into larger, real-world applications.
+
+Thanks for stopping by! 🚀
 
 ---
 
@@ -812,6 +883,18 @@ Stay tuned for future updates! 🚀
 ## 👩‍💻 Author
 
 **Asma Shahzadi**
+
+<p>
+
+<a href="https://linkedin.com/in/asma-shahzadi-313291376">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://github.com/asmashahzadi764-alt">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+</p>
 
 ⭐ If you find this repository helpful, consider giving it a **Star** on GitHub.
 
