@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JavaScript Concepts & Practice — Asma Shahzadi</title>
+<meta name="description" content="25 JavaScript practice projects, organized by concept — fundamentals, DOM, loops, closures, async and more.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#fbfbfa;
+    --ink:#17181c;
+    --dim:#5c6068;
+    --faint:#9a9ea5;
+    --line:#e4e4e2;
+    --accent:#1d4ed8;
+  }
+  *{ margin:0; padding:0; box-sizing:border-box; }
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'IBM Plex Sans', sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{ color:inherit; text-decoration:none; }
+  .mono{ font-family:'IBM Plex Mono', monospace; }
+
+  .wrap{ max-width:760px; margin:0 auto; padding:0 28px; }
+
+  /* header */
+  .top{
+    padding:28px 0;
+    border-bottom:1px solid var(--line);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .top .who{ font-size:14px; font-weight:600; }
+  .top .links{ display:flex; gap:20px; font-size:13px; color:var(--dim); }
+  .top .links a{ border-bottom:1px solid transparent; }
+  .top .links a:hover{ color:var(--ink); border-color:var(--ink); }
+
+  header.hero{ padding:64px 0 48px; border-bottom:1px solid var(--line); }
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    color:var(--dim);
+    text-transform:uppercase;
+    letter-spacing:.08em;
+  }
+  h1{
+    font-size:clamp(30px,4.4vw,42px);
+    font-weight:600;
+    letter-spacing:-0.015em;
+    line-height:1.15;
+    margin-top:14px;
+    max-width:600px;
+  }
+  .lede{
+    margin-top:16px;
+    font-size:16px;
+    color:var(--dim);
+    line-height:1.6;
+    max-width:560px;
+  }
+  .stats{
+    margin-top:28px;
+    display:flex;
+    gap:32px;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:13px;
+    color:var(--dim);
+  }
+  .stats b{ color:var(--ink); font-size:15px; }
+
+  /* toc */
+  .toc{ padding:36px 0; border-bottom:1px solid var(--line); }
+  .toc-title{ font-size:12px; text-transform:uppercase; letter-spacing:.08em; color:var(--faint); margin-bottom:16px; }
+  .toc-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px 24px;
+  }
+  .toc-item{
+    display:flex;
+    align-items:baseline;
+    gap:10px;
+    font-size:14px;
+    padding:6px 0;
+    border-bottom:1px dotted var(--line);
+  }
+  .toc-item .num{ font-family:'IBM Plex Mono', monospace; font-size:12px; color:var(--faint); flex-shrink:0; width:20px; }
+  .toc-item a{ color:var(--ink); }
+  .toc-item a:hover{ color:var(--accent); }
+  .toc-item .n{ margin-left:auto; font-family:'IBM Plex Mono', monospace; font-size:11.5px; color:var(--faint); }
+
+  /* sections */
+  .section{ padding:44px 0; border-bottom:1px solid var(--line); }
+  .section-head{ display:flex; align-items:baseline; gap:14px; margin-bottom:20px; }
+  .section-head .num{ font-family:'IBM Plex Mono', monospace; font-size:14px; color:var(--faint); }
+  .section-head h2{ font-size:19px; font-weight:600; }
+  .section-head .count{ margin-left:auto; font-family:'IBM Plex Mono', monospace; font-size:12px; color:var(--faint); }
+
+  .proj-row{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:12px 0;
+    border-bottom:1px solid var(--line);
+    gap:16px;
+  }
+  .proj-row:last-child{ border-bottom:none; }
+  .proj-name{ font-size:14.5px; }
+  .proj-links{ display:flex; gap:18px; flex-shrink:0; }
+  .proj-links a{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12.5px;
+    color:var(--dim);
+    border-bottom:1px solid transparent;
+  }
+  .proj-links a:hover{ color:var(--accent); border-color:var(--accent); }
+
+  footer{ padding:40px 0 70px; }
+  footer .note{ font-size:13.5px; color:var(--dim); max-width:520px; line-height:1.6; }
+  footer .sign{ margin-top:22px; font-size:13px; color:var(--faint); }
+  footer .sign b{ color:var(--ink); }
+
+  @media (max-width:560px){
+    .toc-grid{ grid-template-columns:1fr; }
+    .proj-row{ flex-direction:column; align-items:flex-start; gap:8px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="top wrap">
+  <div class="who">Asma Shahzadi</div>
+  <div class="links">
+    <a href="https://github.com/asmashahzadi764-alt" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://linkedin.com/in/asma-shahzadi-313291376" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://github.com/asmashahzadi764-alt/javascript-concepts-and-practice" target="_blank" rel="noopener">Source</a>
+  </div>
+</div>
+
+<header class="hero wrap">
+  <div class="eyebrow">Practice Repository</div>
+  <h1>JavaScript Concepts &amp; Practice</h1>
+  <p class="lede">25 small projects, each built to understand one JavaScript concept properly — fundamentals, DOM, loops, closures, async and more — before moving on to the next.</p>
+  <div class="stats">
+    <div><b>25</b> projects</div>
+    <div><b>9</b> topics</div>
+    <div><b>2026</b> completed</div>
+  </div>
+</header>
+
+<div class="toc wrap">
+  <div class="toc-title">Contents</div>
+  <div class="toc-grid" id="toc"></div>
+</div>
+
+<div class="wrap" id="sections"></div>
+
+<footer class="wrap">
+  <p class="note">This repository was built to lock in JavaScript fundamentals before moving into larger applications — one concept per project, documented as I went.</p>
+  <div class="sign"><b>Asma Shahzadi</b> — Full Stack Developer</div>
+</footer>
+
+<script>
+const BASE_LIVE = "https://asmashahzadi764-alt.github.io/javascript-concepts-and-practice/";
+const BASE_REPO = "https://github.com/asmashahzadi764-alt/javascript-concepts-and-practice/tree/main/";
+
+const topics = [
+  { name:"Fundamentals", projects:[
+    ["Variables Practice","javascript-variables-practice"],
+    ["Functions Practice","Functions%20Practice"],
+    ["Type Conversion Practice","js-type-conversion-practice"],
+    ["Rest & Spread Practice","js-rest-spread-practice"],
+  ]},
+  { name:"DOM Manipulation", projects:[
+    ["Text & Color Changer","js-dom-text-color-changer"],
+    ["Show & Hide","js-dom-show-hide"],
+    ["Create Element","js-dom-create-element"],
+    ["innerHTML Practice","js-dom-innerhtml-practice"],
+    ["outerHTML Practice","js-dom-outerhtml-practice"],
+    ["DocumentFragment Practice","js-document-fragment-practice"],
+  ]},
+  { name:"Loops", projects:[
+    ["For Loop Practice","js-for-loop-practice"],
+    ["While Loop Practice","js-while-loop-practice"],
+    ["Do While Loop Practice","js-do-while-loop-practice"],
+  ]},
+  { name:"Conditionals & Logic", projects:[
+    ["Conditions & Typeof","js-conditions-typeof-practice"],
+    ["Switch Practice","js-switch-practice"],
+    ["Switch Day Finder","js-switch-day-finder"],
+    ["Ternary Operator Practice","js-ternary-operator-practice"],
+  ]},
+  { name:"Array Methods", projects:[
+    ["Higher Order Functions Practice","js-higher-order-functions-practice"],
+  ]},
+  { name:"Closures", projects:[
+    ["Closures Practice","js-closures-practice"],
+  ]},
+  { name:"Asynchronous JavaScript", projects:[
+    ["Async Programming Practice","js-asynchronous-javascript-practice"],
+  ]},
+  { name:"HTML Forms", projects:[
+    ["Input Types Practice","html-forms-input-types-practice"],
+    ["Form Submission Practice","html-form-submission-practice"],
+    ["Radio, Checkbox & File Practice","html-radio-checkbox-file-practice"],
+    ["Form Validation Practice","html-form-validation-practice"],
+  ]},
+  { name:"Mini Projects", projects:[
+    ["Functions Calculator","js-functions-calculator"],
+  ]},
+];
+
+const tocEl = document.getElementById("toc");
+const sectionsEl = document.getElementById("sections");
+
+topics.forEach((t, i)=>{
+  const num = String(i+1).padStart(2,"0");
+  const anchor = "sec-" + i;
+
+  const tocItem = document.createElement("div");
+  tocItem.className = "toc-item";
+  tocItem.innerHTML = `<span class="num">${num}</span><a href="#${anchor}">${t.name}</a><span class="n">${t.projects.length}</span>`;
+  tocEl.appendChild(tocItem);
+
+  const section = document.createElement("div");
+  section.className = "section";
+  section.id = anchor;
+  section.innerHTML = `
+    <div class="section-head">
+      <span class="num">${num}</span>
+      <h2>${t.name}</h2>
+      <span class="count">${t.projects.length} project${t.projects.length>1?'s':''}</span>
+    </div>
+    ${t.projects.map(([name, slug])=>`
+      <div class="proj-row">
+        <div class="proj-name">${name}</div>
+        <div class="proj-links">
+          <a href="${BASE_LIVE}${slug}/" target="_blank" rel="noopener">Live →</a>
+          <a href="${BASE_REPO}${slug}" target="_blank" rel="noopener">Code</a>
+        </div>
+      </div>
+    `).join("")}
+  `;
+  sectionsEl.appendChild(section);
+});
+</script>
+
+</body>
+</html>
